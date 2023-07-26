@@ -1,4 +1,4 @@
-﻿anamespace LCZLock
+﻿namespace LCZLock
 {
     using Exiled.API.Enums;
     using Exiled.API.Features;
@@ -11,7 +11,7 @@
         public override string Author { get; } = "Rue";
         public override string Name { get; } = "LCZLock";
         public override string Prefix { get; } = "LCZLock";
-        public override Version Version { get; } = new Version(1, 0, 0);
+        public override Version Version { get; } = new Version(1, 1, 0);
         public override Version RequiredExiledVersion { get; } = new Version(7, 2, 0);
 
         public override PluginPriority Priority { get; } = PluginPriority.Last;
