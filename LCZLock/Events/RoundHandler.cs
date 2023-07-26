@@ -14,7 +14,6 @@ namespace Exiled.LCZLockEvents
     {
         private readonly LCZLock Instance = LCZLock.Instance;
         public void OnRoundStarted()
-        // by default, is allowed
         {
             IEnumerable<Door> allDoors = Door.List;
        
