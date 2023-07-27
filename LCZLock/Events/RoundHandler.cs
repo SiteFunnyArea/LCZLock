@@ -14,7 +14,6 @@ namespace Exiled.LCZLockEvents
     {
         private readonly LCZLock Instance = LCZLock.Instance;
         public void OnRoundStarted()
-        // by default, is allowed
         {
             IEnumerable<Door> allDoors = Door.List;
        
@@ -25,20 +24,37 @@ namespace Exiled.LCZLockEvents
                     door.Lock(Instance.Config.TimeUntilUnlock, DoorLockType.AdminCommand);
                 }
             }
-            if (Instance.Config.DoCassieMessage)
+            if (Instance.Config.DoLockCassieMessage)
             {
-                Timing.RunCoroutine(UnlockElevators(Instance.Config.TimeUntilUnlock), "unlockLczElevators");
+                Timing.RunCoroutine(LockElevatorsMessage(Instance.Config.LockCassieTime), "lockLczElevators");
+            }
+            if (Instance.Config.DoUnlockCassieMessage)
+            {
+                Timing.RunCoroutine(UnlockElevatorsMessage(Instance.Config.TimeUntilUnlock), "unlockLczElevators");
             }
         }
 
-        public void OnRoundEnded(RoundEndedEventArgs ev) => Timing.KillCoroutines("unlockLczElevators");
-        private IEnumerator<float> UnlockElevators(float waitSeconds)
+        public void OnRoundEnded(RoundEndedEventArgs ev)
+        {
+            Timing.KillCoroutines("unlockLczElevators");
+            Timing.KillCoroutines("lockLczElevators");
+        }
+        private IEnumerator<float> UnlockElevatorsMessage(float waitSeconds)
         {
             yield return Timing.WaitForSeconds(waitSeconds);
 
-            if (Instance.Config.DoCassieMessage)
+            if (Instance.Config.DoUnlockCassieMessage)
             {
-                Cassie.MessageTranslated(Instance.Config.CassieMessage, Instance.Config.Subtitles, true, false, true); // message, subtitles, hold, not noisy, do subtitles
+                Cassie.MessageTranslated(Instance.Config.UnlockCassieMessage, Instance.Config.UnlockSubtitles, true, false, true); // message, subtitles, hold, not noisy, do subtitles
+            };
+        }
+        private IEnumerator<float> LockElevatorsMessage(float waitSeconds)
+        {
+            yield return Timing.WaitForSeconds(waitSeconds);
+
+            if (Instance.Config.DoUnlockCassieMessage)
+            {
+                Cassie.MessageTranslated(Instance.Config.LockCassieMessage, Instance.Config.LockSubtitles, true, false, true);
             };
         }
     }
