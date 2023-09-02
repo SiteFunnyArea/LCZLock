@@ -1,11 +1,13 @@
-﻿using Exiled.API.Features;
+﻿
+using Exiled.API.Features;
 using Exiled.API.Enums;
 
-
+using Exiled.Events.EventArgs.Server;
 using Exiled.Events.EventArgs.Player;
 
 namespace Exiled.LCZLockEvents
 {
+    using Exiled.API.Features.Doors;
     using Exiled.Events.EventArgs.Server;
     using LCZLock;
     using MEC;

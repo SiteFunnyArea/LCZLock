@@ -6,11 +6,6 @@
     <Nullable>enable</Nullable>
 	<LangVersion>10.0</LangVersion>
   </PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="EXILED" Version="7.2.0" />
-		<PackageReference Include="Lib.Harmony" Version="2.2.2" />
-	</ItemGroup>
 	
   <ItemGroup>
     <Reference Include="0Harmony">
@@ -18,6 +13,9 @@
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\CommandSystem.Core.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.API">
       <HintPath>..\..\..\..\..\Downloads\8.0.2\EXILED\Plugins\dependencies\Exiled.API.dll</HintPath>
