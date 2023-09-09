@@ -11,7 +11,7 @@
         public bool Debug { get; set; } = false;
 
         [Description("How long until the elevators are activated")]
-        public float TimeUntilUnlock { get; set; } = 40f;
+        public float TimeUntilUnlock { get; set; } = 70f;
         [Description("Whether or not to do a message for the elevators unlocking")]
         public Boolean DoUnlockCassieMessage { get; set; } = false;
         public string UnlockCassieMessage { get; set; } = "bell_start the lockdown on the light containment zone has ended . elevators are now active bell_end";

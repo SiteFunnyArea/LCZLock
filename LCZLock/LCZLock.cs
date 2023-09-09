@@ -11,7 +11,7 @@
         public override string Author { get; } = "Rue | Updated By: KadotCom";
         public override string Name { get; } = "LCZLock";
         public override string Prefix { get; } = "LCZLock";
-        public override Version Version { get; } = new Version(1, 3, 0);
+        public override Version Version { get; } = new Version(1, 4, 0);
         public override Version RequiredExiledVersion { get; } = new Version(8, 0, 0);
 
         public override PluginPriority Priority { get; } = PluginPriority.Last;
