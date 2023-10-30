@@ -3,7 +3,8 @@
     using Exiled.API.Enums;
     using Exiled.API.Features;
     using Exiled.LCZLockEvents;
-
+   
+  
     public class LCZLock : Plugin<Config>
     {
         private RoundHandler? roundHandler;
@@ -11,7 +12,7 @@
         public override string Author { get; } = "Rue | Updated By: KadotCom";
         public override string Name { get; } = "LCZLock";
         public override string Prefix { get; } = "LCZLock";
-        public override Version Version { get; } = new Version(1, 5, 0);
+        public override Version Version { get; } = new Version(1, 6, 0);
         public override Version RequiredExiledVersion { get; } = new Version(8, 0, 0);
 
         public override PluginPriority Priority { get; } = PluginPriority.Last;

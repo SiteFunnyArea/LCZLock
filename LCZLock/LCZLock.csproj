@@ -9,7 +9,7 @@
 	
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\dependencies\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -21,34 +21,31 @@
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\CommandSystem.Core.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.API">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\dependencies\Exiled.API.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\dependencies\Exiled.API.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.CreditTags">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.CreditTags.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\Exiled.CreditTags.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.CustomItems">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.CustomItems.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\Exiled.CustomItems.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.CustomRoles">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.CustomRoles.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\Exiled.CustomRoles.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Events">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.Events.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\Exiled.Events.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Loader">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\SCP Secret Laboratory\PluginAPI\plugins\global\Exiled.Loader.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\SCP Secret Laboratory\PluginAPI\plugins\global\Exiled.Loader.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Permissions">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.Permissions.dll</HintPath>
-    </Reference>
-    <Reference Include="Exiled.Updater">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\Exiled.Updater.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\Exiled.Permissions.dll</HintPath>
     </Reference>
     <Reference Include="Mirror">
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Mirror.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Posix">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\dependencies\Mono.Posix.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\dependencies\Mono.Posix.dll</HintPath>
     </Reference>
     <Reference Include="NorthwoodLib">
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\NorthwoodLib.dll</HintPath>
@@ -60,10 +57,10 @@
       <HintPath>D:\SteamLibrary\steamapps\common\SCP Secret Laboratory Dedicated Server\SCPSL_Data\Managed\Pooling.dll</HintPath>
     </Reference>
     <Reference Include="SemanticVersioning">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\dependencies\SemanticVersioning.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\dependencies\SemanticVersioning.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations">
-      <HintPath>..\..\..\..\..\Downloads\8.2.1\EXILED\Plugins\dependencies\System.ComponentModel.DataAnnotations.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\EXILED\EXILED\Plugins\dependencies\System.ComponentModel.DataAnnotations.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
     <Reference Include="UnityEngine">
