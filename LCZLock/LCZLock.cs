@@ -9,7 +9,7 @@
     {
         private RoundHandler? roundHandler;
 
-        public override string Author { get; } = "Rue | Updated By: KadotCom";
+        public override string Author { get; } = "Rue | Maintained By KadotCom";
         public override string Name { get; } = "LCZLock";
         public override string Prefix { get; } = "LCZLock";
         public override Version Version { get; } = new Version(1, 6, 0);
